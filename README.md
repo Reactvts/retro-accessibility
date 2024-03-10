@@ -13,7 +13,7 @@ A collection of LUA Scripts that make Retro games more accesible to new players 
 
 
 ## Supported Games:
-Super Mario Bros 3
+NES - Super Mario Bros 3 (USA)
 
 ## FAQ
 
