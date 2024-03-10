@@ -170,10 +170,10 @@ mario3_watch = function()
 
     if forms.ischecked(autoPit) then
         if onGround and frame_count % 30 == 0 and memory.read_u8(0x7dfc,"System Bus") == 0x36 and memory.read_u8(0x00bd, "RAM") == 0 then -- if on ground and not moving, create savestate every second
-            savestate.save('./pit.state')
+            savestate.save('./SuperMarioBros3Accessbility.state')
         end
         if memory.read_u8(0x04e4, "RAM") == 0x01 and memory.read_u8(0x00ce, "RAM") == 0x02 then
-            savestate.load('./pit.state')
+            savestate.load('./SuperMarioBros3Accessbility.state')
         end
     end;
 
