@@ -26,5 +26,10 @@ This is a very new project, I don't have road map of what games will be supporte
 3) Spread the word!
 
 **How do I make accessbility options for retro games**
-Using Bizhawk's LUA scripting, I can watch, edit and freeze different memory addressed in the game as it's running. It's like Game Genie or Cheat Engine but for good. A really good resource I used was RetroAchivevements [https://retroachievements.org/](https://retroachievements.org/) 
-Since a lot of what runs Retro Achivevements is watch memory addresses, they have a huge source of existing games and memory bookmarks already identified for things like lives, health, powerups, e.t.c. Their emulator, [https://retroachievements.org/download.php#ralibretro](https://retroachievements.org/download.php#ralibretro) has a Memory Inspector with Code Notes that are HUGELY helpful in understanding how it works. When you load a supported game in into RALibreRetro, you instantly get all the information and notes their community collected. You may have to do your own research for more obscure games, and some times you need to be creative about how to solve a problem, but this is a amazing place to start and leverage a huge pool of information. 
+Using Bizhawk's LUA scripting, I can watch, edit and freeze different memory addressed in the game as it's running. It's like Game Genie or Cheat Engine but for good. 
+
+A good resource I used was RetroAchivevements [https://retroachievements.org/](https://retroachievements.org/) 
+
+Since a lot of what runs Retro Achivevements is watch memory addresses, they have a huge source of existing games and memory bookmarks already identified for things like lives, health, powerups, e.t.c. Their emulator, [https://retroachievements.org/download.php#ralibretro](https://retroachievements.org/download.php#ralibretro) has a Memory Inspector with Code Notes that are HUGELY helpful in understanding how it works. 
+
+When you load a supported game in into RALibreRetro, you instantly get all the information and notes their community collected. You may have to do your own research for more obscure games, and some times you need to be creative about how to solve a problem, but this is a amazing place to start and leverage a huge pool of information. 
