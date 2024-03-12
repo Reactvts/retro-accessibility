@@ -45,10 +45,6 @@ end
 
 forms.destroyall()
 setup_window = null
-connect_btn = null
-button_text = "Connect"
-console_log = ""
-console_window = null
 local y = 10
 
 

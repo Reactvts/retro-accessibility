@@ -13,7 +13,9 @@ A collection of LUA Scripts that make Retro games more accesible to new players 
 
 
 ## Supported Games:
-NES - Super Mario Bros 3 (USA)
+NES - Super Mario Bros (Tested on USA)
+NES - Super Mario Bros 2 (USA)
+NES - Super Mario Bros 3 (Test on USA)
 
 ## FAQ
 
