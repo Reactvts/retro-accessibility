@@ -45,7 +45,7 @@ forms.destroyall()
 setup_window = null
 local y = 10
 
-
+pitState = null
 
 onGround = true
 
@@ -121,10 +121,10 @@ mario2_watch = function()
 
     if forms.ischecked(autoPit) and mario_dead == false then
         if onGround and frame_count % 30 == 0 and memory.read_u8(0x003c, "RAM") == 0x00 then -- if on ground and not moving, create savestate every second
-            savestate.save('./SuperMarioBrosAccessbility.state')
+            pitState = memorysavestate.savecorestate()
         end
         if memory.read_u8(0x04c2, "RAM") == 0x00 and memory.read_u8(0x042a, "RAM") == 0x01 then -- if mario is falling into a pit
-            savestate.load('./SuperMarioBrosAccessbility.state')
+            memorysavestate.loadcorestate(pitState)
         end
     end;
     if mario_dead == false then
