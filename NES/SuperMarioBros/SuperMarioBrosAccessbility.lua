@@ -47,7 +47,7 @@ local y = 10
 
 
 onGround = true
-
+pitState = null
 
 
 setup_window = forms.newform(340, 260, "Super Mario Bros. - Retro Accessibility Options", main_cleanup)
@@ -142,10 +142,10 @@ mario_watch = function()
 
     if forms.ischecked(autoPit) then
         if onGround and frame_count % 30 == 0 and memory.read_u8(0x0057, "RAM") == 0x00 then -- if on ground and not moving, create savestate every second
-            savestate.save('./SuperMarioBrosAccessbility.state')
+            pitState = memorysavestate.savecorestate()
         end
         if memory.read_u8(0x00b5, "RAM") == 0x02 and memory.read_u8(0x07b1, "RAM") == 0x01 then -- if mario is falling into a pit
-            savestate.load('./SuperMarioBrosAccessbility.state')
+            memorysavestate.loadcorestate(pitState)
         end
     end;
 
