@@ -61,22 +61,6 @@ mario3Powerups = {
     ["6 - Hammer"] = 0x7
 }
 
---first flicker = 0304 - 0309 locl ef until after fanfare 
-
-
--- 4e5 == 4   
-
--- 00fc = boss flicker lock during first fanfare, set to ef at start of fall fanfare
-
--- fall fanfare - 4f5 == 0x0d
-
-
-
---0304 = mini boss flicker lock during first fanfare, set to ef after
-
-
---- need to check all map events
-
 
 
 lockedPowerup = null
