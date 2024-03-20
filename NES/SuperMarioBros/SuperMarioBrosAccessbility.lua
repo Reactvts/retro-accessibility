@@ -1,5 +1,5 @@
 -- Super Mario Bros Accessibility Script
--- Version 0.1
+-- Version 0.2
 -- Author: Seve Savoie Teruel
 -- Date: 2024-03-11
 -- Description: This script is designed to make Super Mario Bros 3 more accessible to people with disabilities
