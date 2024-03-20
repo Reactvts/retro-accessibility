@@ -13,10 +13,11 @@ A collection of LUA Scripts that make Retro games more accesible to new players 
 
 
 ## Supported Games:
+NES - Mega Man [Tested USA]
+NES - Mega Man 2 [Tested USA]
+NES - Mega Man 3 [Tested USA]
 NES - Super Mario Bros [Tested on USA]
-
-NES - Super Mario Bros 2 [USA]
-
+NES - Super Mario Bros 2 USA 
 NES - Super Mario Bros 3 [Tested on USA]
 
 ## FAQ
