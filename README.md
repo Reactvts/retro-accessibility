@@ -13,6 +13,8 @@ A collection of LUA Scripts that make Retro games more accessible to new players
 
 
 ## Supported Games:
+NES - Anticipation [Tested USA]
+NES - Castlevania [Tested USA]
 NES - Mega Man [Tested USA]
 NES - Mega Man 2 [Tested USA]
 NES - Mega Man 3 [Tested USA]
