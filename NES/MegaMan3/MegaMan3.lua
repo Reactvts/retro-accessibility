@@ -2,7 +2,7 @@
 -- Version 0.1
 -- Author: Seve Savoie Teruel
 -- Date: 2024-03-18
--- Description: This script is designed to make Mega Man more accessible to people with disabilities
+-- Description: This script is designed to make Mega Man 3 more accessible to people with disabilities
 -- Requires: Bizhawk Emulator
 -- Usage: Load the rom and then load this script. A window will appear with options to enable or disable certain features.
 --

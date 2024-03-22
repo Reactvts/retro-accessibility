@@ -17,6 +17,8 @@
 -- 
 -- Future Features:
 --  - Auto Run
+--  - High contrast and text contrast mode
+--  - Enemie audio cues
 
 
 
