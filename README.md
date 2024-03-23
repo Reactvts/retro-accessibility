@@ -12,15 +12,15 @@ A collection of LUA Scripts that make Retro games more accessible to new players
 3) A New window should appear with accessbility options for your game. EACH LUA Script is different as each game will have different options.
 
 
-## Supported Games:
-NES - Anticipation [Tested USA]
-NES - Castlevania [Tested USA]
-NES - Mega Man [Tested USA]
-NES - Mega Man 2 [Tested USA]
-NES - Mega Man 3 [Tested USA]
-NES - Super Mario Bros [Tested on USA]
-NES - Super Mario Bros 2 USA 
-NES - Super Mario Bros 3 [Tested on USA]
+## Supported Games: (Only Tested on US version of the game)
+NES - Anticipation
+NES - Castlevania
+NES - Mega Man
+NES - Mega Man 2
+NES - Mega Man 3
+NES - Super Mario Bros
+NES - Super Mario Bros 2
+NES - Super Mario Bros 3
 
 ## FAQ
 
